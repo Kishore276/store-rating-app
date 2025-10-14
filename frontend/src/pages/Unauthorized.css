@@ -1,0 +1,47 @@
+.unauthorized-container {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+  padding: 2rem;
+}
+
+.unauthorized-content {
+  text-align: center;
+  color: white;
+  max-width: 500px;
+}
+
+.unauthorized-content h1 {
+  font-size: 6rem;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.unauthorized-content h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.unauthorized-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.95;
+}
+
+.back-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: white;
+  color: #e74c3c;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.back-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
